@@ -7,8 +7,7 @@ Hệ thống quản lý sản phẩm & kho hàng chạy mượt mà trên cả *
 ## 🌟 Tính Năng Nổi Bật
 
 ### 1. Quản Trị Sản Phẩm Toàn Diện (CRUD)
-- **Thêm mới sản phẩm:** Nhập thông tin mặt hàng với cơ chế tự động đánh mã tuần tự (`product-01`, `product-02`, `product-03`,...).
-- **Thanh trượt chọn giá thông minh (`PriceSliderControl`):** Chọn mức giá bán bằng thanh trượt trực quan từ **1 triệu VNĐ đến 100 triệu VNĐ** (mỗi bước nhảy **5 triệu VNĐ**) kèm nút tăng/giảm nhanh `−` / `+` thay vì phải gõ tay nhiều chữ số.
+- **Thêm mới sản phẩm:** Nhập thông tin mặt hàng (Tên, Giá bán VNĐ, Số lượng tồn kho, Hình ảnh) với cơ chế tự động đánh mã tuần tự (`product-01`, `product-02`, `product-03`,...).
 - **Cập nhật & Chỉnh sửa:** Đổ dữ liệu tức thì lên form để chỉnh sửa Tên, Giá bán, Số lượng tồn kho, Hình ảnh và đồng bộ ngay lập tức lên Firebase.
 - **Xóa vĩnh viễn:** Hỗ trợ xóa đơn lẻ hoặc xóa hàng loạt trực tiếp khỏi cơ sở dữ liệu.
 - **Xem chi tiết:** Modal pop-up hiển thị đầy đủ thông tin mặt hàng, định dạng tiền tệ VNĐ và hình ảnh sản phẩm.

@@ -234,7 +234,7 @@ export default function App() {
   // Form state (Thêm / Sửa sản phẩm - Đúng 4 trường: name, price, soluong, image)
   const [editingId, setEditingId] = useState(null);
   const [name, setName] = useState('');
-  const [price, setPrice] = useState('10000000');
+  const [price, setPrice] = useState('');
   const [soluong, setSoluong] = useState('');
   const [image, setImage] = useState('');
   const [uploadingImage, setUploadingImage] = useState(false);
@@ -667,7 +667,7 @@ export default function App() {
   const resetForm = () => {
     setEditingId(null);
     setName('');
-    setPrice('10000000');
+    setPrice('');
     setSoluong('');
     setImage('');
   };
@@ -1038,26 +1038,23 @@ export default function App() {
               onChangeText={setName}
             />
 
-            <View
-              style={{
-                flexDirection: 'row',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                marginBottom: 6,
-              }}
-            >
-              <Text style={[styles.fieldLabel, { color: theme.textSecondary, marginBottom: 0 }]}>
-                Giá bán VNĐ (price)
-              </Text>
-              <Text style={{ fontSize: 13, fontWeight: '700', color: '#2563eb' }}>
-                {Number(price || 1000000).toLocaleString('vi-VN')} đ (
-                {Math.round(Number(price || 1000000) / 1000000)} triệu)
-              </Text>
-            </View>
-            <PriceSliderControl
-              value={price || '1000000'}
-              onChange={(val) => setPrice(String(val))}
-              theme={theme}
+            <Text style={[styles.fieldLabel, { color: theme.textSecondary }]}>
+              Giá bán VNĐ (price)
+            </Text>
+            <TextInput
+              style={[
+                styles.fieldInput,
+                {
+                  backgroundColor: theme.inputBg,
+                  borderColor: theme.border,
+                  color: theme.textPrimary,
+                },
+              ]}
+              placeholder="VD: 34990000"
+              placeholderTextColor={theme.textSecondary}
+              value={price}
+              onChangeText={setPrice}
+              keyboardType="numeric"
             />
 
             <Text style={[styles.fieldLabel, { color: theme.textSecondary }]}>

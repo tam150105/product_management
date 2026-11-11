@@ -76,9 +76,8 @@ File dữ liệu `database.json` (gồm 14 sản phẩm mẫu từ `product-01` 
 1. **Quản trị sản phẩm (CRUD) với mã tuần tự:**
    - Tự động sinh mã định danh `product-01`, `product-02`,..., `product-14` khi thêm mới.
    - Đảm bảo 100% chỉ lưu đúng 4 trường (`name`, `price`, `soluong`, `image`) lên Firebase Realtime Database.
-2. **Thanh trượt chọn giá & Lọc theo giá (`PriceSliderControl`):**
-   - Thiết kế thanh trượt chọn mức giá từ **1.000.000 đ (1 triệu)** đến **100.000.000 đ (100 triệu)** với mỗi bước nhảy **5.000.000 đ (5 triệu)** kèm nút `−` / `+`.
-   - Áp dụng đồng bộ tại **Form Thêm/Sửa sản phẩm** (chọn giá bán nhanh không cần nhập tay) và tại **Bộ lọc danh sách sản phẩm** (kéo thanh trượt để lọc sản phẩm theo mức giá trần).
+2. **Thanh trượt lọc theo giá (`PriceSliderControl`):**
+   - Thiết kế thanh trượt lọc mức giá từ **1.000.000 đ (1 triệu)** đến **100.000.000 đ (100 triệu)** với mỗi bước nhảy **5.000.000 đ (5 triệu)** kèm nút `−` / `+` tại bộ lọc danh sách sản phẩm (trong khi ở Form Thêm/Sửa vẫn nhập giá bán trực tiếp bằng tay linh hoạt).
 3. **Tích hợp lưu trữ ảnh đám mây Cloudflare R2 (`r2Service.js`):**
    - Khi người dùng chọn ảnh từ máy tính hoặc điện thoại (`expo-image-picker`), hệ thống tự động ký xác thực chuẩn **AWS SigV4** và tải ảnh trực tiếp lên bucket `gkitamphan` của **Cloudflare R2**.
    - Nhận về đường link công khai `https://pub-82ad1e9e3e5249daba6977b2baf4114e.r2.dev/...` để lưu vào trường `image` trên Firebase.
