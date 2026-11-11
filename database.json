@@ -1,0 +1,88 @@
+{
+  "products": {
+    "product-01": {
+      "name": "iPhone 16 Pro Max 256GB",
+      "price": "34990000",
+      "soluong": "15",
+      "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=300"
+    },
+    "product-02": {
+      "name": "MacBook Air M3 13 inch",
+      "price": "27990000",
+      "soluong": "8",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=300"
+    },
+    "product-03": {
+      "name": "Tai nghe AirPods Pro 2 USB-C",
+      "price": "5990000",
+      "soluong": "25",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300"
+    },
+    "product-04": {
+      "name": "Đồng hồ Apple Watch Series 10",
+      "price": "10990000",
+      "soluong": "12",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300"
+    },
+    "product-05": {
+      "name": "Samsung Galaxy S24 Ultra 512GB",
+      "price": "31490000",
+      "soluong": "10",
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=300"
+    },
+    "product-06": {
+      "name": "iPad Pro M4 11 inch WiFi",
+      "price": "26990000",
+      "soluong": "14",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=300"
+    },
+    "product-07": {
+      "name": "Bàn phím cơ Logitech MX Mechanical",
+      "price": "3890000",
+      "soluong": "30",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300"
+    },
+    "product-08": {
+      "name": "Chuột không dây Logitech MX Master 3S",
+      "price": "2490000",
+      "soluong": "42",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=300"
+    },
+    "product-09": {
+      "name": "Loa Bluetooth Marshall Stanmore III",
+      "price": "9490000",
+      "soluong": "7",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=300"
+    },
+    "product-10": {
+      "name": "Máy ảnh Sony Alpha A6700 Mirrorless",
+      "price": "35990000",
+      "soluong": "5",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=300"
+    },
+    "product-11": {
+      "name": "Màn hình LG UltraGear 27 inch 2K 180Hz",
+      "price": "6790000",
+      "soluong": "18",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=300"
+    },
+    "product-12": {
+      "name": "Tai nghe chụp tai Sony WH-1000XM5",
+      "price": "7490000",
+      "soluong": "22",
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=300"
+    },
+    "product-13": {
+      "name": "Máy chơi game PlayStation 5 Slim",
+      "price": "13490000",
+      "soluong": "9",
+      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=300"
+    },
+    "product-14": {
+      "name": "Ổ cứng di động SSD Samsung T7 1TB",
+      "price": "2690000",
+      "soluong": "35",
+      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=300"
+    }
+  }
+}
